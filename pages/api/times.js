@@ -1,4 +1,4 @@
-export default (res) => {
+export default (req, res) => {
     res.json([
         {nome: 'América-MG', abreviacao: 'AME', id: 327, escudo: 'https://s.glbimg.com/es/sde/f/organizacoes/2018/01/24/AmericaMG-65.png'},
         {nome: 'Atlético-RN', abreviacao: 'ARN', id: 200, escudo: ''},
